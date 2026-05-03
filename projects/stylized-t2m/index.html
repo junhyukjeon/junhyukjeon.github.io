@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stylized Text-to-Motion | Junhyuk Jeon</title>
+    <meta
+      name="description"
+      content="Project page for Stylized Text-to-Motion, including paper, supplement, method, results, and demo video."
+    >
+    <link rel="stylesheet" href="../../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-shell nav" aria-label="Primary navigation">
+        <a class="brand" href="../../">Junhyuk Jeon</a>
+        <div class="nav-links">
+          <a href="../../#about">About</a>
+          <a href="../../#projects">Projects</a>
+          <a href="#abstract">Abstract</a>
+          <a href="#method">Method</a>
+          <a href="#results">Results</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="site-shell project-page">
+      <section class="project-hero">
+        <div>
+          <p class="eyebrow">Project Page</p>
+          <h1 class="project-title">Stylized Text-to-Motion</h1>
+          <p class="authors">
+            Junhyuk Jeon, Coauthor Name, Coauthor Name
+          </p>
+          <p class="venue">Conference / Journal / Preprint, 2026</p>
+          <p class="project-summary">
+            A concise one-paragraph summary of the project goes here. Explain
+            the input, the output, the main technical contribution, and why the
+            result matters to a reader who only skims the page.
+          </p>
+        </div>
+
+        <aside class="link-panel" aria-label="Project links">
+          <h2>Links</h2>
+          <div class="link-stack">
+            <a class="button primary" href="paper.pdf">Paper</a>
+            <a class="button" href="supp.pdf">Supplement</a>
+            <a class="button" href="static/video.mp4">Video</a>
+            <a class="button" href="https://github.com/junhyukjeon">Code</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="wide-media" aria-label="Project teaser">
+        <div class="media is-missing">
+          <img
+            src="static/teaser.png"
+            alt="Stylized Text-to-Motion teaser results"
+            onload="this.closest('.media').classList.remove('is-missing')"
+            onerror="this.closest('.media').classList.add('is-missing')"
+          >
+          <div class="asset-placeholder">Add static/teaser.png</div>
+        </div>
+        <p class="caption">
+          Teaser caption. Describe the main visual takeaway in one sentence.
+        </p>
+      </section>
+
+      <section id="abstract" class="paper-section">
+        <div class="content-grid">
+          <article>
+            <h2>Abstract</h2>
+            <p>
+              Replace this paragraph with the paper abstract. A strong project
+              page abstract usually explains the problem, the limitation of
+              prior work, the proposed method, and the most important result in
+              a compact form.
+            </p>
+            <p>
+              Keep this section readable for both technical readers and visitors
+              who are deciding whether to open the PDF.
+            </p>
+          </article>
+
+          <aside class="link-panel">
+            <h2>Project Details</h2>
+            <ul class="side-list">
+              <li><strong>Task</strong><span>Text-to-motion</span></li>
+              <li><strong>Input</strong><span>Text prompt + style</span></li>
+              <li><strong>Output</strong><span>Human motion</span></li>
+              <li><strong>Status</strong><span>Draft</span></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="method" class="paper-section">
+        <div class="section-header">
+          <h2>Method</h2>
+          <p>
+            Use this section for the pipeline figure and the two or three
+            implementation ideas that make the method distinctive.
+          </p>
+        </div>
+
+        <div class="media is-missing">
+          <img
+            src="static/method.png"
+            alt="Method diagram for Stylized Text-to-Motion"
+            onload="this.closest('.media').classList.remove('is-missing')"
+            onerror="this.closest('.media').classList.add('is-missing')"
+          >
+          <div class="asset-placeholder">Add static/method.png</div>
+        </div>
+        <p class="caption">
+          Method caption. Summarize the pipeline without repeating the abstract.
+        </p>
+      </section>
+
+      <section id="results" class="paper-section">
+        <div class="section-header">
+          <h2>Results</h2>
+          <p>
+            Show qualitative examples, comparisons, ablations, and a short demo
+            video when the assets are ready.
+          </p>
+        </div>
+
+        <div class="figure-grid">
+          <div>
+            <div class="media is-missing">
+              <img
+                src="static/results.png"
+                alt="Result examples from Stylized Text-to-Motion"
+                onload="this.closest('.media').classList.remove('is-missing')"
+                onerror="this.closest('.media').classList.add('is-missing')"
+              >
+              <div class="asset-placeholder">Add static/results.png</div>
+            </div>
+            <p class="caption">Result examples caption.</p>
+          </div>
+
+          <div>
+            <div class="media is-missing">
+              <video
+                controls
+                preload="metadata"
+                poster="static/teaser.png"
+                onloadedmetadata="this.closest('.media').classList.remove('is-missing')"
+                onerror="this.closest('.media').classList.add('is-missing')"
+              >
+                <source src="static/video.mp4" type="video/mp4">
+              </video>
+              <div class="asset-placeholder">Add static/video.mp4</div>
+            </div>
+            <p class="caption">Demo video caption.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="citation" class="paper-section">
+        <h2>Citation</h2>
+        <pre class="citation"><code>@inproceedings{jeon2026stylizedt2m,
+  title     = {Stylized Text-to-Motion},
+  author    = {Jeon, Junhyuk and Coauthor, Name and Coauthor, Name},
+  booktitle = {Conference Name},
+  year      = {2026}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell">
+        <span><a href="../../">Junhyuk Jeon</a> / Stylized Text-to-Motion</span>
+      </div>
+    </footer>
+  </body>
+</html>

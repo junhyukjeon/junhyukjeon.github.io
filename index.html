@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junhyuk Jeon</title>
+    <meta
+      name="description"
+      content="Personal website for Junhyuk Jeon: research, projects, publications, and contact information."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-shell nav" aria-label="Primary navigation">
+        <a class="brand" href="./">Junhyuk Jeon</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="Junhyuk_Jeon_CV.pdf">CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="site-shell hero">
+        <div>
+          <p class="eyebrow">Researcher / Engineer</p>
+          <h1>Junhyuk Jeon</h1>
+          <p class="hero-copy">
+            I work on computer graphics, generative models, and human-centered
+            creative tools. This site collects selected projects, papers, demos,
+            and notes.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button" href="mailto:you@example.com">Email</a>
+            <a class="button" href="https://github.com/junhyukjeon">GitHub</a>
+            <a class="button" href="https://scholar.google.com/">Scholar</a>
+          </div>
+        </div>
+
+        <aside class="portrait" aria-label="Profile image placeholder">
+          <div class="portrait-placeholder">
+            <strong>Profile photo</strong>
+            <span>Drop a headshot here later, or replace this block with an image.</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="site-shell section">
+        <div class="section-header">
+          <h2>About</h2>
+          <p>
+            Replace this short section with your current role, affiliation, and
+            the kind of work you want visitors to remember.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="text-block">
+            <p>
+              I am interested in building systems that make digital content more
+              expressive, controllable, and useful. My recent work explores how
+              machine learning methods can support motion, style, and visual
+              communication.
+            </p>
+            <p>
+              Before publishing the site, update this page with your real bio,
+              selected news, and links to your lab, institution, collaborators,
+              or social profiles.
+            </p>
+          </div>
+
+          <ul class="side-list">
+            <li><strong>Affiliation</strong><span>Your lab / school</span></li>
+            <li><strong>Location</strong><span>Your city</span></li>
+            <li><strong>Focus</strong><span>Graphics, ML, HCI</span></li>
+            <li><strong>Email</strong><span>you@example.com</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="site-shell section">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>
+            Each project gets its own page with teaser media, paper links,
+            method overview, results, citation, and downloads.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <a class="project-card" href="projects/stylized-t2m/">
+            <div class="project-thumb">Stylized T2M teaser</div>
+            <div>
+              <div class="project-meta">
+                <span class="tag">Motion</span>
+                <span class="tag">Generative AI</span>
+                <span class="tag">Project Page</span>
+              </div>
+              <h3>Stylized Text-to-Motion</h3>
+              <p>
+                A project page template for a text-to-motion system with slots
+                for the paper, supplement, teaser, method figure, results, and
+                demo video.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="site-shell section">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>
+            For collaborations, questions, or project follow-ups, email
+            <a href="mailto:you@example.com">you@example.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell">
+        <span>© <span id="year"></span> Junhyuk Jeon.</span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
