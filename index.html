@@ -11,125 +11,134 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="site-shell nav" aria-label="Primary navigation">
-        <a class="brand" href="./">Junhyuk Jeon</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="Junhyuk_Jeon_CV.pdf">CV</a>
-        </div>
+    <header class="top-nav">
+      <nav class="page" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
       </nav>
     </header>
 
-    <main>
-      <section class="site-shell hero">
-        <div>
-          <p class="eyebrow">Researcher / Engineer</p>
+    <main class="page">
+      <section id="about" class="intro">
+        <div class="intro-text">
           <h1>Junhyuk Jeon</h1>
-          <p class="hero-copy">
-            I work on computer graphics, generative models, and human-centered
-            creative tools. This site collects selected projects, papers, demos,
-            and notes.
+          <p>
+            Hello! I am interested in computer graphics, generative models, and
+            creative tools for motion and visual media. This page collects my
+            projects, publications, demos, and contact information.
           </p>
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button" href="mailto:you@example.com">Email</a>
-            <a class="button" href="https://github.com/junhyukjeon">GitHub</a>
-            <a class="button" href="https://scholar.google.com/">Scholar</a>
-          </div>
+          <p>
+            Replace this paragraph with your current role, school/lab, advisor,
+            and research interests once you are ready to publish the site.
+          </p>
+          <p class="profile-links">
+            <a href="mailto:you@example.com">Email</a>
+            <span>/</span>
+            <a href="Junhyuk_Jeon_CV.pdf">CV</a>
+            <span>/</span>
+            <a href="https://scholar.google.com/">Scholar</a>
+            <span>/</span>
+            <a href="https://github.com/junhyukjeon">GitHub</a>
+            <span>/</span>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+          </p>
         </div>
 
-        <aside class="portrait" aria-label="Profile image placeholder">
-          <div class="portrait-placeholder">
-            <strong>Profile photo</strong>
-            <span>Drop a headshot here later, or replace this block with an image.</span>
-          </div>
-        </aside>
+        <figure class="profile-photo">
+          <img
+            src="profile.jpg"
+            alt="Junhyuk Jeon"
+            onerror="this.closest('.profile-photo').classList.add('is-missing')"
+          >
+          <figcaption>Profile photo</figcaption>
+        </figure>
       </section>
 
-      <section id="about" class="site-shell section">
-        <div class="section-header">
-          <h2>About</h2>
-          <p>
-            Replace this short section with your current role, affiliation, and
-            the kind of work you want visitors to remember.
-          </p>
-        </div>
+      <section id="publications" class="section">
+        <h2>Publications</h2>
 
-        <div class="about-grid">
-          <div class="text-block">
-            <p>
-              I am interested in building systems that make digital content more
-              expressive, controllable, and useful. My recent work explores how
-              machine learning methods can support motion, style, and visual
-              communication.
-            </p>
-            <p>
-              Before publishing the site, update this page with your real bio,
-              selected news, and links to your lab, institution, collaborators,
-              or social profiles.
-            </p>
-          </div>
-
-          <ul class="side-list">
-            <li><strong>Affiliation</strong><span>Your lab / school</span></li>
-            <li><strong>Location</strong><span>Your city</span></li>
-            <li><strong>Focus</strong><span>Graphics, ML, HCI</span></li>
-            <li><strong>Email</strong><span>you@example.com</span></li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="projects" class="site-shell section">
-        <div class="section-header">
-          <h2>Projects</h2>
-          <p>
-            Each project gets its own page with teaser media, paper links,
-            method overview, results, citation, and downloads.
-          </p>
-        </div>
-
-        <div class="project-list">
-          <a class="project-card" href="projects/stylized-t2m/">
-            <div class="project-thumb">Stylized T2M teaser</div>
-            <div>
-              <div class="project-meta">
-                <span class="tag">Motion</span>
-                <span class="tag">Generative AI</span>
-                <span class="tag">Project Page</span>
-              </div>
-              <h3>Stylized Text-to-Motion</h3>
-              <p>
-                A project page template for a text-to-motion system with slots
-                for the paper, supplement, teaser, method figure, results, and
-                demo video.
-              </p>
-            </div>
+        <article class="publication">
+          <a class="pub-thumb" href="projects/style-salad/">
+            <img
+              src="projects/style-salad/static/teaser.png"
+              alt="Style-Salad teaser"
+              onerror="this.closest('.pub-thumb').classList.add('is-missing')"
+            >
+            <span>Image</span>
           </a>
-        </div>
+          <div class="pub-body">
+            <h3><a href="projects/style-salad/">Style-Salad</a></h3>
+            <p class="authors">Junhyuk Jeon, Coauthor Name, Coauthor Name</p>
+            <p class="venue">Conference / Journal / Preprint, 2026</p>
+            <p class="pub-links">
+              [<a href="projects/style-salad/paper.pdf">Paper</a>]
+              [<a href="projects/style-salad/">Project Page</a>]
+              [<a href="https://github.com/junhyukjeon">Code</a>]
+            </p>
+            <p>
+              A project page template for Style-Salad with slots for the paper,
+              supplement, teaser, method figure, results, and demo video.
+            </p>
+          </div>
+        </article>
       </section>
 
-      <section id="contact" class="site-shell section">
-        <div class="section-header">
-          <h2>Contact</h2>
-          <p>
-            For collaborations, questions, or project follow-ups, email
-            <a href="mailto:you@example.com">you@example.com</a>.
-          </p>
-        </div>
+      <section id="education" class="section">
+        <h2>Education</h2>
+
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3>Your University</h3>
+            <p>Degree / Program, Advisor: Advisor Name</p>
+            <p class="date">Start Date - End Date</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="experiences" class="section">
+        <h2>Experiences</h2>
+
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3>Your Lab / Organization</h3>
+            <p>Researcher / Engineer / Student</p>
+            <p class="date">Start Date - End Date</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3><a href="projects/style-salad/">Style-Salad</a></h3>
+            <p>
+              A compact project entry that links to the full project page and
+              can be expanded with a date range, collaborators, or a short
+              research summary.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="services" class="section">
+        <h2>Services</h2>
+        <ul class="plain-list">
+          <li>Paper Review: Venue Name, Year</li>
+        </ul>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="site-shell">
-        <span>© <span id="year"></span> Junhyuk Jeon.</span>
-      </div>
+    <footer class="page site-footer">
+      <p>Last Update: May 2026</p>
     </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>
