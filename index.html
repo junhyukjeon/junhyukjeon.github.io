@@ -1,244 +1,144 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Junhyuk Jeon</title>
-    <meta name="author" content="Junhyuk Jeon">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junhyuk Jeon</title>
     <meta
       name="description"
-      content="Personal website for Junhyuk Jeon: research, projects, publications, and contact information.">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+      content="Personal website for Junhyuk Jeon: research, projects, publications, and contact information."
+    >
+    <link rel="stylesheet" href="styles.css">
   </head>
+  <body>
+    <header class="top-nav">
+      <nav class="page" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+      </nav>
+    </header>
 
-  <body id="about">
-    <nav class="top-nav">
-      <div class="top-nav-inner">
-        <button class="top-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <div class="top-nav-links" id="mobile-nav">
-          <a href="#about">About</a>
-          <a href="#publications">Publications</a>
-          <a href="#education">Education</a>
-          <a href="#experiences">Experiences</a>
-          <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
+    <main class="page">
+      <section id="about" class="intro">
+        <div class="intro-text">
+          <h1>Junhyuk Jeon</h1>
+          <p>
+            Hello! I am interested in computer graphics, generative models, and
+            creative tools for motion and visual media. This page collects my
+            projects, publications, demos, and contact information.
+          </p>
+          <p>
+            Replace this paragraph with your current role, school/lab, advisor,
+            and research interests once you are ready to publish the site.
+          </p>
+          <p class="profile-links">
+            <a href="mailto:you@example.com">Email</a>
+            <span>/</span>
+            <a href="Junhyuk_Jeon_CV.pdf">CV</a>
+            <span>/</span>
+            <a href="https://scholar.google.com/">Scholar</a>
+            <span>/</span>
+            <a href="https://github.com/junhyukjeon">GitHub</a>
+            <span>/</span>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+          </p>
         </div>
-      </div>
-    </nav>
 
-    <table class="page-table"><tbody>
-      <tr>
-        <td>
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="intro-cell">
-                <p class="name center-text">
-                  <strong>Junhyuk</strong> Jeon
-                </p>
-                <p class="intro-text">
-                  Hello! I am interested in computer graphics, generative models, and creative tools for motion and visual media. This page collects my projects, publications, demos, and contact information.
-                </p>
-                <p class="intro-text">
-                  Replace this paragraph with your current role, school or lab, advisor, and research interests once you are ready to publish the site.
-                </p>
-                <p class="center-text">
-                  <a href="mailto:you@example.com">Email</a> &nbsp;/&nbsp;
-                  <a href="Junhyuk_Jeon_CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/junhyukjeon">GitHub</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/">LinkedIn</a>
-                </p>
-              </td>
-              <td class="profile-cell">
-                <a href="profile.jpg">
-                  <img
-                    class="profile-img hoverZoomLink"
-                    alt="profile photo"
-                    src="profile.jpg"
-                    onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'profile-placeholder', textContent: 'Profile photo'}));">
-                </a>
-              </td>
-            </tr>
-          </tbody></table>
+        <figure class="profile-photo">
+          <img
+            src="profile.jpg"
+            alt="Junhyuk Jeon"
+            onerror="this.closest('.profile-photo').classList.add('is-missing')"
+          >
+          <figcaption>Profile photo</figcaption>
+        </figure>
+      </section>
 
-          <table class="section-table" id="publications"><tbody>
-            <tr>
-              <td class="section-heading-cell">
-                <h2>Publications</h2>
-              </td>
-            </tr>
-          </tbody></table>
+      <section id="publications" class="section">
+        <h2>Publications</h2>
 
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="pub-image-cell">
-                <a href="projects/style-salad/">
-                  <img
-                    src="projects/style-salad/static/teaser.png"
-                    alt="Style-Salad teaser"
-                    onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'image-placeholder', textContent: 'Image'}));">
-                </a>
-              </td>
-              <td class="pub-text-cell">
-                <a href="projects/style-salad/">
-                  <span class="papertitle">Style-Salad</span>
-                </a>
-                <br>
-                <strong>Junhyuk Jeon</strong>,
-                Coauthor Name,
-                Coauthor Name
-                <br>
-                <em>Conference / Journal / Preprint, 2026</em>
-                <br>
-                <div class="link-row">
-                  [<a href="projects/style-salad/paper.pdf">Paper</a>]
-                  [<a href="projects/style-salad/">Project Page</a>]
-                  [<a href="https://github.com/junhyukjeon">Code</a>]
-                </div>
-                <p class="paper-desc">
-                  A project page template for Style-Salad with slots for the paper, supplement, teaser, method figure, results, and demo video.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+        <article class="publication">
+          <a class="pub-thumb" href="projects/style-salad/">
+            <img
+              src="projects/style-salad/static/teaser.png"
+              alt="Style-Salad teaser"
+              onerror="this.closest('.pub-thumb').classList.add('is-missing')"
+            >
+            <span>Image</span>
+          </a>
+          <div class="pub-body">
+            <h3><a href="projects/style-salad/">Style-Salad</a></h3>
+            <p class="authors">Junhyuk Jeon, Coauthor Name, Coauthor Name</p>
+            <p class="venue">Conference / Journal / Preprint, 2026</p>
+            <p class="pub-links">
+              [<a href="projects/style-salad/paper.pdf">Paper</a>]
+              [<a href="projects/style-salad/">Project Page</a>]
+              [<a href="https://github.com/junhyukjeon">Code</a>]
+            </p>
+            <p>
+              A project page template for Style-Salad with slots for the paper,
+              supplement, teaser, method figure, results, and demo video.
+            </p>
+          </div>
+        </article>
+      </section>
 
-          <br><br>
+      <section id="education" class="section">
+        <h2>Education</h2>
 
-          <table class="section-table" id="education"><tbody>
-            <tr>
-              <td class="section-heading-cell">
-                <h2>Education</h2>
-              </td>
-            </tr>
-          </tbody></table>
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3>Your University</h3>
+            <p>Degree / Program, Advisor: Advisor Name</p>
+            <p class="date">Start Date - End Date</p>
+          </div>
+        </article>
+      </section>
 
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="pub-image-cell">
-                <div class="image-placeholder">Image</div>
-              </td>
-              <td class="pub-text-cell">
-                <strong>Your University</strong>
-                <br>
-                Degree / Program, Advisor: Advisor Name
-                <br>
-                Start Date - End Date
-              </td>
-            </tr>
-          </tbody></table>
+      <section id="experiences" class="section">
+        <h2>Experiences</h2>
 
-          <br><br>
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3>Your Lab / Organization</h3>
+            <p>Researcher / Engineer / Student</p>
+            <p class="date">Start Date - End Date</p>
+          </div>
+        </article>
+      </section>
 
-          <table class="section-table" id="experiences"><tbody>
-            <tr>
-              <td class="section-heading-cell">
-                <h2>Experiences</h2>
-              </td>
-            </tr>
-          </tbody></table>
+      <section id="projects" class="section">
+        <h2>Projects</h2>
 
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="pub-image-cell">
-                <div class="image-placeholder">Image</div>
-              </td>
-              <td class="pub-text-cell">
-                <strong>Your Lab / Organization</strong>
-                <br>
-                Researcher / Engineer / Student
-                <br>
-                Start Date - End Date
-              </td>
-            </tr>
-          </tbody></table>
+        <article class="cv-item">
+          <div class="mini-logo">Image</div>
+          <div>
+            <h3><a href="projects/style-salad/">Style-Salad</a></h3>
+            <p>
+              A compact project entry that links to the full project page and
+              can be expanded with a date range, collaborators, or a short
+              research summary.
+            </p>
+          </div>
+        </article>
+      </section>
 
-          <br><br>
+      <section id="services" class="section">
+        <h2>Services</h2>
+        <ul class="plain-list">
+          <li>Paper Review: Venue Name, Year</li>
+        </ul>
+      </section>
+    </main>
 
-          <table class="section-table" id="projects"><tbody>
-            <tr>
-              <td class="section-heading-cell">
-                <h2>Projects</h2>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="pub-image-cell">
-                <div class="image-placeholder">Image</div>
-              </td>
-              <td class="pub-text-cell">
-                <strong><a class="no-blue" href="projects/style-salad/">Style-Salad</a></strong>
-                <br>
-                May 2026
-                <br>
-                <p class="project-desc">
-                  A compact project entry that links to the full project page and can be expanded with collaborators, dates, and a short research summary.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <br>
-
-          <table class="section-table" id="services"><tbody>
-            <tr>
-              <td class="section-heading-cell">
-                <h2>Services</h2>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="pub-text-cell">
-                - <strong>Paper Review</strong>: <span class="paper-desc">Venue Name, Year</span>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <br>
-
-          <table class="content-table"><tbody>
-            <tr>
-              <td class="footer-cell">
-                <br>
-                <p class="footer-text">
-                  Last Update: May 2026
-                  <br>
-                  Code style adapted from Serin Yoon's website baseline.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </tbody></table>
-
-    <script>
-      const navToggle = document.querySelector('.top-nav-toggle');
-      const navLinks = document.querySelector('.top-nav-links');
-      const navLinkItems = document.querySelectorAll('.top-nav-links a');
-
-      navToggle.addEventListener('click', () => {
-        const isOpen = navLinks.classList.toggle('open');
-        navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      });
-
-      navLinkItems.forEach(link => {
-        link.addEventListener('click', () => {
-          navLinks.classList.remove('open');
-          navToggle.setAttribute('aria-expanded', 'false');
-        });
-      });
-    </script>
+    <footer class="page site-footer">
+      <p>Last Update: May 2026</p>
+    </footer>
   </body>
 </html>
