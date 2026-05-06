@@ -194,7 +194,7 @@ body {
 }
 
 :root {
-  --font-main: Roboto, Helvetica, Arial, sans-serif;
+  --font-main: "EB Garamond", Garamond, Georgia, serif;
   --font-size-base: 15px;
   --font-size-intro: 16px;
   --font-size-title: 15.5px;
