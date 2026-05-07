@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-main);
+  font-family: var(--font-body);
   font-size: var(--font-size-base);
   padding-top: 80px;
 }
@@ -194,7 +194,8 @@ body {
 }
 
 :root {
-  --font-main: "EB Garamond", Garamond, Georgia, serif;
+  --font-heading: "Libertinus Sans", Arial, Helvetica, sans-serif;
+  --font-body: "Libertinus Serif", Georgia, "Times New Roman", serif;
   --font-size-base: 15px;
   --font-size-intro: 16px;
   --font-size-title: 15.5px;
@@ -213,7 +214,7 @@ body {
 
 body {
   margin: 0;
-  font-family: var(--font-main);
+  font-family: var(--font-body);
   font-size: var(--font-size-base);
 }
 
@@ -240,11 +241,17 @@ th,
 tr,
 p,
 a,
-strong,
+strong {
+  font-family: var(--font-body) !important;
+}
+
+.top-nav-links a,
+.top-nav-logo,
 h2,
 .papertitle,
-.name {
-  font-family: var(--font-main) !important;
+.name,
+.name strong {
+  font-family: var(--font-heading) !important;
 }
 
 td,
