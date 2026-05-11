@@ -1,11 +1,18 @@
 body {
   font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+  color: #555555;
 }
 
 .content p,
 .content p a,
 .content p strong {
   font-family: "Libertinus Serif", Georgia, "Times New Roman", serif;
+}
+
+strong,
+b {
+  color: #000000 !important;
+  font-weight: 400 !important;
 }
 
 
@@ -52,6 +59,7 @@ body {
 
 .publication-title {
     font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -61,18 +69,20 @@ body {
 
 .title {
     font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 400;
 }
 
 .publication-venue {
-    color: #555;
+    color: #000000;
     width: fit-content;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .publication-awards {
-    color: #ff3860;
+    color: #000000;
     width: fit-content;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .publication-authors {
