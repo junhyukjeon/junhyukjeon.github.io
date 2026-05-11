@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-size: var(--font-size-base);
   padding-top: 80px;
 }
@@ -214,7 +214,7 @@ body {
 
 body {
   margin: 0;
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-size: var(--font-size-base);
 }
 
@@ -239,9 +239,23 @@ body,
 td,
 th,
 tr,
-p,
 a,
 strong {
+  font-family: var(--font-heading) !important;
+}
+
+.intro-text,
+.intro-text a,
+.intro-text strong,
+.paper-desc,
+.paper-desc a,
+.paper-desc strong,
+.project-desc,
+.project-desc a,
+.project-desc strong,
+.service-desc,
+.service-desc a,
+.service-desc strong {
   font-family: var(--font-body) !important;
 }
 

@@ -1,4 +1,10 @@
 body {
+  font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+}
+
+.content p,
+.content p a,
+.content p strong {
   font-family: "Libertinus Serif", Georgia, "Times New Roman", serif;
 }
 
