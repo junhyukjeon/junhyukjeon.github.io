@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Libertinus Serif", Georgia, "Times New Roman", serif;
 }
 
 
@@ -11,6 +11,7 @@ body {
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
 }
 
 .dnerf {
@@ -24,7 +25,7 @@ body {
 }
 
 .teaser {
-  font-family: 'Google Sans', sans-serif;
+  font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
 }
 
 .publication-banner {
@@ -44,11 +45,16 @@ body {
 }
 
 .publication-title {
-    font-family: 'Google Sans', sans-serif;
+    font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .publication-authors {
-    font-family: 'Google Sans', sans-serif;
+    font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-family: "Libertinus Sans", Arial, Helvetica, sans-serif;
 }
 
 .publication-venue {
@@ -72,6 +78,11 @@ body {
 
 .publication-authors a:hover {
     text-decoration: underline;
+}
+
+.publication-authors sup {
+    font-size: 0.7em;
+    line-height: 0;
 }
 
 .author-block {

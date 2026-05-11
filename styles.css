@@ -343,6 +343,12 @@ h2 {
   color: black;
 }
 
+.homepage-authors,
+.homepage-authors strong,
+.homepage-authors sup {
+  font-family: var(--font-heading) !important;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
