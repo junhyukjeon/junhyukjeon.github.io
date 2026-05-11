@@ -200,7 +200,7 @@ body {
   --font-size-base: 18px;
   --font-size-intro: 18px;
   --font-size-title: var(--font-size-base);
-  --font-size-heading: 22px;
+  --font-size-heading: 24px;
   --font-size-name: 34px;
   --font-size-highlight: 12px;
   --text-color: #555555;
@@ -255,9 +255,6 @@ b {
   font-weight: 400 !important;
 }
 
-.intro-text,
-.intro-text a,
-.intro-text strong,
 .paper-desc,
 .paper-desc a,
 .paper-desc strong,
@@ -393,6 +390,8 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-size: var(--font-size-name);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.03em;
 }
 
 .pub-image-cell {
