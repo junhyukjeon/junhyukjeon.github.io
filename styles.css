@@ -23,24 +23,12 @@ body {
 .top-nav-inner {
   max-width: var(--page-max-width);
   margin: 0 auto;
-  padding: 18px 0;
+  padding: 18px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 24px;
   box-sizing: border-box;
-}
-
-.top-nav-logo {
-  color: var(--emphasis-color);
-  font-size: 14px;
-  font-weight: 400;
-  white-space: nowrap;
-}
-
-.top-nav-logo:hover,
-.top-nav-logo:focus {
-  color: var(--link-color);
 }
 
 .top-nav-links {
@@ -77,7 +65,7 @@ body {
   display: block;
   width: 24px;
   height: 2px;
-  background-color: #222;
+  background-color: var(--emphasis-color);
   border-radius: 999px;
 }
 
@@ -197,11 +185,11 @@ body {
 :root {
   --font-heading: "Libertinus Sans", Arial, Helvetica, sans-serif;
   --font-body: "Libertinus Serif", Georgia, "Times New Roman", serif;
-  --font-size-base: 18px;
+  --font-size-base: 16.5px;
   --font-size-intro: 18px;
   --font-size-title: var(--font-size-base);
   --font-size-heading: 24px;
-  --font-size-name: 34px;
+  --font-size-name: 36px;
   --font-size-highlight: 12px;
   --text-color: #555555;
   --emphasis-color: #000000;
@@ -267,23 +255,12 @@ b {
   font-family: var(--font-body) !important;
 }
 
-.top-nav-links a,
-.top-nav-logo,
 h2,
 .papertitle,
 .name,
 .name strong {
   color: var(--emphasis-color);
   font-family: var(--font-heading) !important;
-}
-
-.top-nav-links a {
-  color: var(--emphasis-color);
-}
-
-.top-nav-links a:hover,
-.top-nav-links a:focus {
-  color: var(--link-color);
 }
 
 td,
@@ -314,7 +291,7 @@ em {
 
 .intro-cell {
   padding: 2.5%;
-  width: 65%;
+  width: 58%;
   vertical-align: middle;
 }
 .center-text {
@@ -341,9 +318,9 @@ em {
 
 .profile-cell {
   padding: 2.5%;
-  width: 30%;
-  max-width: 30%;
-  text-align: center;
+  width: 34%;
+  max-width: 34%;
+  text-align: left;
   vertical-align: middle;
 }
 
@@ -351,7 +328,7 @@ em {
   display: block;
   width: 80%;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 0;
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -390,6 +367,7 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-size: var(--font-size-name);
+  font-weight: 400;
   font-variant-caps: small-caps;
   letter-spacing: 0.03em;
 }
