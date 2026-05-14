@@ -227,6 +227,16 @@ em {
   }
 
   .pub-image-cell {
+    padding-right: 7px;
+  }
+
+  .pub-text-cell {
+    padding-left: 7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pub-image-cell {
     padding-right: 6px;
   }
 
