@@ -39,7 +39,7 @@ body {
 
 .top-nav-links a {
   color: var(--emphasis-color);
-  font-size: 17px;
+  font-size: var(--font-size-nav);
   font-weight: 400;
   white-space: nowrap;
 }
@@ -106,7 +106,6 @@ body {
     display: block;
     width: 100%;
     padding: 10px 0;
-    font-size: 17px;
   }
 }
 
@@ -191,6 +190,10 @@ body {
   --font-size-heading: 24px;
   --font-size-name: 36px;
   --font-size-highlight: 12px;
+  --font-size-nav: 18px;
+  --font-size-footer: 13.2px;
+  --cell-padding: 20px;
+  --intro-cell-padding: 2.5%;
   --text-color: #555555;
   --emphasis-color: #000000;
   --link-color: #1772d0;
@@ -201,6 +204,19 @@ body {
   --page-max-width: 960px;
   --image-max-width: 260px;
   --transition-fast: .2s ease-in-out;
+}
+
+@media (min-width: 769px) {
+  :root {
+    --page-max-width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --cell-padding: 14px 0;
+    --intro-cell-padding: 14px 0;
+  }
 }
 
 body {
@@ -290,7 +306,7 @@ em {
 }
 
 .intro-cell {
-  padding: 2.5%;
+  padding: var(--intro-cell-padding);
   width: 58%;
   vertical-align: middle;
 }
@@ -317,7 +333,7 @@ em {
 }
 
 .profile-cell {
-  padding: 2.5%;
+  padding: var(--intro-cell-padding);
   width: 34%;
   max-width: 34%;
   text-align: left;
@@ -335,7 +351,7 @@ em {
 }
 
 .section-heading-cell {
-  padding: 20px;
+  padding: var(--cell-padding);
   width: 100%;
   vertical-align: middle;
 }
@@ -373,7 +389,7 @@ h2 {
 }
 
 .pub-image-cell {
-  padding: 20px;
+  padding: var(--cell-padding);
   width: 20%;
   vertical-align: middle;
 }
@@ -383,13 +399,13 @@ h2 {
 }
 
 .pub-text-cell {
-  padding: 20px;
+  padding: var(--cell-padding);
   width: 80%;
   vertical-align: middle;
 }
 
 .experience-text-cell {
-  padding: 20px;
+  padding: var(--cell-padding);
   width: 50%;
   vertical-align: middle;
 }
@@ -477,9 +493,9 @@ img {
 
 .footer-text {
   text-align: right;
-  font-size: small;
+  font-size: var(--font-size-footer);
 }
 
 .footer-link {
-  font-size: small;
+  font-size: var(--font-size-footer);
 }
