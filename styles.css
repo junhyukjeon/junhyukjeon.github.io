@@ -226,22 +226,9 @@ em {
     width: calc(100% - var(--page-mobile-inset));
   }
 
-  .pub-image-cell {
-    padding-right: 7px;
-  }
-
-  .pub-text-cell {
-    padding-left: 7px;
-  }
-}
-
-@media (max-width: 480px) {
-  .pub-image-cell {
-    padding-right: 6px;
-  }
-
-  .pub-text-cell {
-    padding-left: 6px;
+  .profile-img {
+    width: 72%;
+    max-width: 72%;
   }
 }
 
@@ -358,9 +345,10 @@ img {
   border-radius: 0;
 }
 
-@media (max-width: 768px) {
-  .pub-image-cell img {
-    width: var(--image-mobile-width, 115px);
+@media (max-width: 480px) {
+  .profile-img {
+    width: 68%;
+    max-width: 68%;
   }
 }
 
