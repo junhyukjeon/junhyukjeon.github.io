@@ -128,19 +128,6 @@ body {
   --image-max-width: 260px;
 }
 
-@media (min-width: 769px) {
-  :root {
-    --page-max-width: 50vw;
-  }
-}
-
-@media (max-width: 768px) {
-  :root {
-    --cell-padding: 14px 0;
-    --intro-cell-padding: 14px 0;
-  }
-}
-
 table {
   border: 0;
   border-spacing: 0;

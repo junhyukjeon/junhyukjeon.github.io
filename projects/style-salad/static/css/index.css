@@ -15,15 +15,6 @@ b {
   font-weight: 400 !important;
 }
 
-@media screen and (min-width: 769px) {
-  .container.is-max-desktop,
-  .footer .container {
-    width: 50vw;
-    max-width: 50vw;
-  }
-}
-
-
 .footer .icon-link {
     font-size: 25px;
     color: #000;
