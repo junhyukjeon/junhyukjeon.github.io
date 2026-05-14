@@ -14,6 +14,7 @@ html {
   --cell-padding: 20px;
   --intro-cell-padding: 2.5%;
   --page-mobile-inset: 48px;
+  --mobile-content-gap: 24px;
   --text-color: #555555;
   --emphasis-color: #000000;
   --link-color: #1772d0;
@@ -30,8 +31,10 @@ html {
     --font-size-name: 32.4px;
     --font-size-nav: 16.2px;
     --font-size-footer: 11.88px;
-    --cell-padding: 18px;
-    --intro-cell-padding: 2.25%;
+    --cell-padding: 14px;
+    --intro-cell-padding: 2%;
+    --page-mobile-inset: 40px;
+    --mobile-content-gap: 20px;
     --image-max-width: 234px;
   }
 }
@@ -44,9 +47,10 @@ html {
     --font-size-name: 29.5px;
     --font-size-nav: 14.75px;
     --font-size-footer: 10.8px;
-    --cell-padding: 16.4px;
-    --intro-cell-padding: 2.05%;
-    --page-mobile-inset: 40px;
+    --cell-padding: 12px;
+    --intro-cell-padding: 1.8%;
+    --page-mobile-inset: 32px;
+    --mobile-content-gap: 16px;
     --image-max-width: 213px;
   }
 }
@@ -120,7 +124,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 60px;
+    padding-top: calc(47px + var(--mobile-content-gap));
   }
 
   .top-nav-inner {
