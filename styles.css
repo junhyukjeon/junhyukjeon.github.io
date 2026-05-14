@@ -360,7 +360,7 @@ img {
 
 @media (max-width: 768px) {
   .pub-image-cell img {
-    width: var(--image-mobile-width, 115px);
+    width: 130px;
   }
 }
 
