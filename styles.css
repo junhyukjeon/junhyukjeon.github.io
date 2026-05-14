@@ -31,9 +31,9 @@ html {
     --font-size-name: 32.4px;
     --font-size-nav: 16.2px;
     --font-size-footer: 11.88px;
-    --cell-padding: 14px;
-    --intro-cell-padding: 2%;
-    --page-mobile-inset: 40px;
+    --cell-padding: 12px;
+    --intro-cell-padding: 1.75%;
+    --page-mobile-inset: 32px;
     --mobile-content-gap: 20px;
     --image-max-width: 234px;
   }
@@ -47,9 +47,9 @@ html {
     --font-size-name: 29.5px;
     --font-size-nav: 14.75px;
     --font-size-footer: 10.8px;
-    --cell-padding: 12px;
-    --intro-cell-padding: 1.8%;
-    --page-mobile-inset: 32px;
+    --cell-padding: 10px;
+    --intro-cell-padding: 1.5%;
+    --page-mobile-inset: 24px;
     --mobile-content-gap: 16px;
     --image-max-width: 213px;
   }
@@ -227,21 +227,21 @@ em {
   }
 
   .pub-image-cell {
-    padding-right: 7px;
+    padding-right: 5px;
   }
 
   .pub-text-cell {
-    padding-left: 7px;
+    padding-left: 5px;
   }
 }
 
 @media (max-width: 480px) {
   .pub-image-cell {
-    padding-right: 6px;
+    padding-right: 4px;
   }
 
   .pub-text-cell {
-    padding-left: 6px;
+    padding-left: 4px;
   }
 }
 
