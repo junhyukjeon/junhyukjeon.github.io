@@ -342,6 +342,12 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+@media (max-width: 768px) {
+  .name {
+    padding-top: 0;
+  }
+}
+
 .pub-image-cell {
   padding: var(--cell-padding);
   width: 20%;
