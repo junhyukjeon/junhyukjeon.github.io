@@ -25,12 +25,12 @@ html {
 
 @media (max-width: 768px) {
   :root {
-    --font-size-base: 14.25px;
-    --font-size-intro: 15.5px;
-    --font-size-heading: 20.75px;
-    --font-size-name: 31px;
-    --font-size-nav: 15.5px;
-    --font-size-footer: 11.4px;
+    --font-size-base: 14px;
+    --font-size-intro: 15.25px;
+    --font-size-heading: 20.4px;
+    --font-size-name: 30.5px;
+    --font-size-nav: 15.25px;
+    --font-size-footer: 11.2px;
     --cell-padding: 10px;
     --intro-cell-padding: 1.5%;
     --page-mobile-inset: 32px;
@@ -41,12 +41,12 @@ html {
 
 @media (max-width: 480px) {
   :root {
-    --font-size-base: 13px;
-    --font-size-intro: 14.2px;
-    --font-size-heading: 18.9px;
-    --font-size-name: 28.4px;
-    --font-size-nav: 14.2px;
-    --font-size-footer: 10.4px;
+    --font-size-base: 12.8px;
+    --font-size-intro: 14px;
+    --font-size-heading: 18.6px;
+    --font-size-name: 28px;
+    --font-size-nav: 14px;
+    --font-size-footer: 10.25px;
     --cell-padding: 8px;
     --intro-cell-padding: 1.25%;
     --page-mobile-inset: 24px;
