@@ -331,10 +331,15 @@ h2 {
 }
 
 img {
-  width: 100%;
-  max-width: var(--image-max-width);
+  width: min(100%, var(--image-max-width));
   object-fit: contain;
   border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .pub-image-cell img {
+    width: var(--image-mobile-width, 130px);
+  }
 }
 
 .footer-cell {
