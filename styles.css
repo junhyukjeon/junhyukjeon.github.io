@@ -225,6 +225,14 @@ em {
   .page-table {
     width: calc(100% - var(--page-mobile-inset));
   }
+
+  .pub-image-cell {
+    padding-right: 6px;
+  }
+
+  .pub-text-cell {
+    padding-left: 6px;
+  }
 }
 
 .content-table,
