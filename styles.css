@@ -31,8 +31,8 @@ html {
     --font-size-name: 32.4px;
     --font-size-nav: 16.2px;
     --font-size-footer: 11.88px;
-    --cell-padding: 12px;
-    --intro-cell-padding: 1.75%;
+    --cell-padding: 10px;
+    --intro-cell-padding: 1.5%;
     --page-mobile-inset: 32px;
     --mobile-content-gap: 20px;
     --image-max-width: 234px;
@@ -47,8 +47,8 @@ html {
     --font-size-name: 29.5px;
     --font-size-nav: 14.75px;
     --font-size-footer: 10.8px;
-    --cell-padding: 10px;
-    --intro-cell-padding: 1.5%;
+    --cell-padding: 8px;
+    --intro-cell-padding: 1.25%;
     --page-mobile-inset: 24px;
     --mobile-content-gap: 16px;
     --image-max-width: 213px;
