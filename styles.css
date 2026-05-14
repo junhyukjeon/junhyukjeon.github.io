@@ -188,6 +188,12 @@ em {
   margin-left: auto;
 }
 
+@media (max-width: 768px) {
+  .page-table {
+    width: calc(100% - 32px);
+  }
+}
+
 .content-table,
 .section-table {
   width: 100%;
